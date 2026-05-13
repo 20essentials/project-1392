@@ -10,24 +10,25 @@
     "deploy": "pnpm build && pnpm gh-pages -d dist/"
   },
   "devDependencies": {
-    "typescript": "npm:tsover@^5.9.11",
-    "vite": "^6.1.1",
-    "@webgpu/types": "^0.1.66",
+    "@tailwindcss/vite": "^4.1.18",
     "@types/three": "^0.181.0",
+    "@webgpu/types": "^0.1.66",
     "tailwindcss": "^4.1.11",
-    "@tailwindcss/vite": "^4.1.18"
+    "typescript": "npm:tsover@^5.9.11",
+    "vite": "^6.1.1"
   },
   "dependencies": {
+    "@loaders.gl/core": "^4.3.4",
+    "@loaders.gl/gltf": "^4.3.4",
+    "@loaders.gl/obj": "^4.3.4",
+    "@typegpu/color": "0.11.0",
+    "@typegpu/noise": "0.11.0",
+    "@typegpu/sdf": "0.11.1",
+    "@typegpu/three": "0.11.0",
+    "gh-pages": "^6.3.0",
+    "three": "^0.181.0",
     "typegpu": "^0.11.4",
     "unplugin-typegpu": "^0.11.3",
-    "wgpu-matrix": "^3.4.0",
-    "@loaders.gl/core": "^4.3.4",
-    "@loaders.gl/obj": "^4.3.4",
-    "@loaders.gl/gltf": "^4.3.4",
-    "three": "^0.181.0",
-    "@typegpu/noise": "0.11.0",
-    "@typegpu/color": "0.11.0",
-    "@typegpu/sdf": "0.11.1",
-    "@typegpu/three": "0.11.0"
+    "wgpu-matrix": "^3.4.0"
   }
 }
